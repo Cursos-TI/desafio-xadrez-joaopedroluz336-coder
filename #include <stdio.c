@@ -2,11 +2,13 @@
 
 int main() {
 
+    // --- TORRE: 5 casas para a Direita (usando FOR) ---
     printf("Torre:\n");
     for (int i = 1; i <= 5; i++) {
         printf("Direita\n");
     }
 
+    // --- BISPO: 5 casas na Diagonal (usando WHILE) ---
     printf("\nBispo:\n");
     int passo = 1;
     while (passo <= 5) {
@@ -15,6 +17,7 @@ int main() {
         passo++;
     }
 
+    // --- RAINHA: 8 casas para a Esquerda (usando DO-WHILE) ---
     printf("\nRainha:\n");
     int i = 1;
     do {
