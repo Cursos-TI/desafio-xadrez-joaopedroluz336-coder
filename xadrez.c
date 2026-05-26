@@ -16,11 +16,11 @@ int main() {
     }
 
     printf("\nRainha:\n");
-    int i = 1;
+    int j = 1;
     do {
         printf("Esquerda\n");
-        i++;
-    } while (i <= 8);
+        j++;
+    } while (j <= 8);
 
     return 0;
 }
